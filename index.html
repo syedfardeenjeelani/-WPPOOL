@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <!-- HERO SECTION STARTS HERE WITH NAVBAR  -->
+      <!-- HERO SECTION STARTS HERE WITH NAVBAR  -->
+      <!-- HERO SECTION STARTS HERE WITH NAVBAR  -->
+      <!-- HERO SECTION STARTS HERE WITH NAVBAR  -->
+      <!-- HERO SECTION STARTS HERE WITH NAVBAR  -->
+      <!-- HERO SECTION STARTS HERE WITH NAVBAR  -->
+      <div
+        class="bg-[#EDEDED] sm:w-auto w-[106vw] overflow-hidden pt-[25px] px-[25px]"
+      >
+        <div class="bg-[#2042B6] flex flex-col h-[100vh] sm:h-[104vh]">
+          <!-- ////////////////////////// -->
+          <!-- NAVBAR SECTION STARTS HERE -->
+          <!-- ////////////////////////// -->
+          <nav
+            id="navbar"
+            class="sm:w-[96.6%] w-[88%] z-[999999] px-[36px] py-[24px] fixed mx-auto flex justify-between items-center"
+          >
+            <div>
+              <img id="logosvg" src="./assets/logo.svg" alt="" />
+            </div>
+            <div id="desktopMenu" class="flex items-center">
+              <button id="shareHide" class="md:flex hidden">
+                <img
+                  id="sharebtn"
+                  class="md:flex hidden mr-[12px]"
+                  src="./assets/share.svg"
+                  alt=""
+                />
+              </button>
+              <button
+                id="buttonnavbar"
+                class="rounded-[124px] hover:bg-[#3a5ddf] transition-all duration-300 ease-in-out transform md:inline-block hidden text-[14px] font-garamond w-[280px] h-[42px] text-white border-white border"
+              >
+                Download the 2024 Report
+              </button>
+              <button id="mobileBar" class="ml-[24px]">
+                <img id="barimg" src="./assets/bar.png" alt="" />
+              </button>
+            </div>
+            <!-- ////////////////////-->
+            <!-- NAVBAR MOBILE SECTION STARTS HERE-->
+            <!-- ///////////////////-->
+            <div
+              id="mobileMenu"
+              class="absolute hidden z-50 top-[10px] sm:top-0 right-[20px] sm:right-0"
+            >
+              <div
+                class="sm:w-[388px] w-[340px] h-[500px] rounded-tl-[18px] rounded-b-[18px] bg-white"
+              >
+                <div
+                  class="pt-[28px] flex items-center justify-center gap-[12px]"
+                >
+                  <img
+                    class="cursor-pointer"
+                    src="./assets/shareMobile.svg"
+                    alt=""
+                  />
+                  <button
+                    class="sm:w-[182px] cursor-pointer h-[42px] py-[12px] hover:bg-[#3a5ddf] transition-all duration-300 ease-in-out transform px-[16px] text-[15px] flex gap-[10px] bg-[#2042B6] text-white sm:text-[12px] rounded-[124px]"
+                  >
+                    Download the 2024 Report
+                  </button>
+
+                  <img
+                    id="closeMobileMenu"
+                    class="ml-[12px] w-[15.56px] cursor-pointer h-[15.56px]"
+                    src="./assets/cross.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="flex justify-center">
+                  <ul
+                    class="mt-[33px] text-[18px] text-[#191618] flex flex-col gap-[24px]"
+                  >
+                    <li><a href="#">The WPPOOL Index</a></li>
+                    <li><a href="#">All Companies</a></li>
+                    <li><a href="#">Potential Future Listings</a></li>
+                    <li><a href="#">State of USA</a></li>
+                    <li><a href="#">Stories & Ideas</a></li>
+                    <li><a href="#">About WPPOOL</a></li>
+                    <li><a href="#">WPPOOL Portfolio Companies</a></li>
+                  </ul>
+                </div>
+                <div
+                  class="flex w-[11.3rem] md:w-[12.9rem] justify-end mt-[15px] text-[#2042B6] text-[21px]"
+                >
+                  <a href="#">Visit WPPOOL</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!-- ////////////////////-->
+          <!-- NAVBAR SECTION  ENDS HERE-->
+          <!-- ///////////////////-->
+
+          <!-- ///////////////////-->
+          <!-- HERO SECTION PAGE STARTS HERE  -->
+          <!-- ///////////////////-->
+
+          <div class="px-[36px] mt-[100px]">
+            <div class="flex relative justify-between">
+              <!-- ///////////////////-->
+              <!-- HERO  SECTION FIRST PART STARTS HERE  -->
+              <!-- ///////////////////-->
+              <div class="absolute hidden md:inline-block bottom-[0px]">
+                <ul class="text-white flex flex-col gap-[50px]">
+                  <li>
+                    <h1
+                      data-aos="fade-right"
+                      data-aos-duration="1000"
+                      class="text-[36px]"
+                    >
+                      60
+                    </h1>
+                    <p
+                      data-aos="fade-right"
+                      data-aos-duration="1300"
+                      class="text-[#CDCDCD]"
+                    >
+                      Companies
+                    </p>
+                  </li>
+                  <li>
+                    <h1
+                      data-aos="fade-right"
+                      data-aos-duration="1500"
+                      class="text-[36px]"
+                    >
+                      $100B
+                    </h1>
+                    <p
+                      data-aos="fade-right"
+                      data-aos-duration="1700"
+                      class="text-[#CDCDCD]"
+                    >
+                      Market cap
+                    </p>
+                  </li>
+                  <li>
+                    <h1
+                      data-aos="fade-right"
+                      data-aos-duration="1900"
+                      class="text-[36px]"
+                    >
+                      3.5x
+                    </h1>
+                    <p
+                      data-aos="fade-right"
+                      data-aos-duration="2100"
+                      class="text-[#CDCDCD]"
+                    >
+                      Revenue multiple
+                    </p>
+                  </li>
+                  <li>
+                    <h1
+                      data-aos="fade-right"
+                      data-aos-duration="1300"
+                      class="text-[36px]"
+                    >
+                      60%
+                    </h1>
+                    <p
+                      data-aos="fade-right"
+                      data-aos-duration="1000"
+                      class="text-[#CDCDCD] w-[250px]"
+                    >
+                      LTM avg. revenue growth rate
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <!-- ///////////////////-->
+              <!-- HERO  SECTION MIDDLE PART STARTS HERE  -->
+              <!-- ///////////////////-->
+              <div class="w-full relative">
+                <div class="mx-auto w-[350px] sm:w-[549px] relative h-[542px]">
+                  <img
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    class="sm:w-[549px] w-[310px] h-[542px]"
+                    style="mix-blend-mode: multiply"
+                    src="./assets/heroimagesvgg.svg"
+                    alt=""
+                  />
+                  <img
+                    data-aos="fade-down"
+                    data-aos-duration="1200"
+                    class="absolute sm:top-[16px] top-[125px] right-[29px] sm:right-[17px] sm:w-[603px] sm:h-[513px]"
+                    src="./assets/Rectangle 1.png"
+                    alt=""
+                  />
+                  <div
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
+                    class="absolute lg:w-[43rem] sm:w-[36rem] text-center top-[232px] left-[53px] sm:left-[0px] sm:top-[215px] lg:top-[193px] lg:left-[-33px]"
+                  >
+                    <h1
+                      class="lg:text-[78px] text-[30px] sm:text-[48px] font-garamond text-white"
+                    >
+                      The WPPOOL Index
+                    </h1>
+                  </div>
+                  <div
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    class="absolute lg:w-[54rem] text-center lg:text-center right-[20px] top-[17.5rem] lg:top-[19rem] lg:right-[-10rem]"
+                  >
+                    <p class="text-white sm:text-[21px]">
+                      Monitor the performance of emerging, publicly traded,
+                      financial technology companies
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- ///////////////////-->
+              <!-- HERO  SECTION LAST PART STARTS HERE  -->
+              <!-- ///////////////////-->
+              <div class="absolute bottom-[0px] hidden md:inline-block right-0">
+                <img
+                  class="animate-bounce cursor-pointer"
+                  src="./assets/Frame 111.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- ///////////////////-->
+            <!-- HERO  SECTION MOBILE PART STARTS HERE  -->
+            <!-- ///////////////////-->
+            <div>
+              <ul
+                data-aos="fade-up"
+                class="text-white flex md:hidden flex-wrap text-center justify-center gap-6 md:gap-8 lg:gap-10"
+              >
+                <li class="w-full md:w-auto flex-1">
+                  <h1 class="sm:text-[24px] text-[17px] md:text-[36px]">60</h1>
+                  <p class="sm:text-[16px] text-[16px] text-[#CDCDCD]">
+                    Companies
+                  </p>
+                </li>
+                <li class="w-full md:w-auto flex-1">
+                  <h1 class="sm:text-[24px] text-[17px] md:text-[36px]">
+                    $100B
+                  </h1>
+                  <p class="sm:text-[16px] text-[16px] text-[#CDCDCD]">
+                    Market cap
+                  </p>
+                </li>
+                <li class="w-full md:w-auto flex-1">
+                  <h1 class="sm:text-[24px] text-[17px] md:text-[36px]">
+                    3.5x
+                  </h1>
+                  <p class="sm:text-[16px] text-[16px] text-[#CDCDCD]">
+                    Revenue multiple
+                  </p>
+                </li>
+                <li class="w-full md:w-auto flex-1">
+                  <h1 class="sm:text-[24px] text-[17px] md:text-[36px]">60%</h1>
+                  <p
+                    class="sm:text-[16px] pb-[20px] sm:pb-0 text-[16px] text-[#CDCDCD] w-auto md:w-[250px]"
+                  >
+                    LTM avg. revenue growth rate
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- HERO SECTION ENDS HERE WITH NAVBAR  -->
+      <!-- HERO SECTION ENDS HERE WITH NAVBAR  -->
+      <!-- HERO SECTION ENDS HERE WITH NAVBAR  -->
+      <!-- HERO SECTION ENDS HERE WITH NAVBAR  -->
+      <!-- HERO SECTION ENDS HERE WITH NAVBAR  -->
+      <!-- HERO SECTION ENDS HERE WITH NAVBAR  -->
+
+      <!-- ///////////////////////// -->
+      <!-- PAGE 2ND STARTS HERE -->
+      <!-- ///////////////////////// -->
+      <!-- PAGE 2ND STARTS HERE -->
+      <div
+        class="bg-[#EDEDED] sm:w-auto w-[106vw] overflow-hidden px-[25px] pt-[60px]"
+      >
+        <div class="w-full pt-[53px] bg-white pb-[20px]">
+          <!-- ////////////////////// -->
+          <div
+            class="px-[36px] flex lg:flex-row flex-col items-center lg:items-start gap-[24px] mt-[10px] bg-white"
+          >
+            <!-- TABLE OF PAGE 2ND -->
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              class="lg:w-[224px] w-full lg:h-[602px] pt-[8px] px-[7px] rounded-[14px] bg-[#EFF3F6]"
+            >
+              <div class="list-none">
+                <ul class="flex flex-col gap-[24px]">
+                  <div
+                    class="flex lg:w-[208px] h-[36px] hover:bg-[#2042B6] hover:scale-125 transition-all duration-300 ease-in-out transform hover:text-white text-[#647888] text-center items-center rounded-[6px] justify-between px-[10px]"
+                  >
+                    <li>The Index</li>
+                    <span>+</span>
+                  </div>
+                  <div
+                    class="flex px-[10px] lg:w-[208px] h-[36px] hover:bg-[#2042B6] hover:text-white text-[#647888] text-center items-center rounded-[6px] hover:scale-125 transition-all duration-300 ease-in-out transform justify-between"
+                  >
+                    <li>The Index Tab two</li>
+                    <span>+</span>
+                  </div>
+                  <div
+                    class="flex px-[10px] lg:w-[208px] h-[36px] hover:bg-[#2042B6] hover:text-white text-[#647888] text-center items-center rounded-[6px] hover:scale-125 transition-all duration-300 ease-in-out transform justify-between"
+                  >
+                    <li>The Index Tab Three</li>
+                    <span>+</span>
+                  </div>
+                  <div
+                    class="flex px-[10px] lg:w-[208px] h-[36px] hover:bg-[#2042B6] hover:text-white text-[#647888] text-center items-center rounded-[6px] hover:scale-125 transition-all duration-300 ease-in-out transform justify-between"
+                  >
+                    <li>The Index Tab Four</li>
+                    <span>+</span>
+                  </div>
+                  <div
+                    class="flex px-[10px] lg:w-[208px] h-[36px] hover:bg-[#2042B6] hover:text-white text-[#647888] text-center items-center rounded-[6px] hover:scale-125 transition-all duration-300 ease-in-out transform justify-between"
+                  >
+                    <li>The Index Tab Five</li>
+                    <span>+</span>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <!-- GRAPH OF PAGE 2ND -->
+            <div class="flex flex-col gap-[20px] h-[91vh]">
+              <div
+                class="flex flex-wrap justify-center lg:justify-start lg:w-[100%] gap-[20px]"
+              >
+                <div
+                  class="md:w-[230px] w-[82%] h-[50px] flex px-[12px] items-center justify-between rounded-[6px] bg-[#F3F3F3]"
+                >
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    class="text-[30px] text-[#FC714D]"
+                  >
+                    +66.2%
+                  </div>
+                  <div
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
+                    class="text-[12px] gap-[8px] flex items-center text-[#191618]"
+                  >
+                    <h1 class="leading-[14.4px]">
+                      WPPOOL <br />
+                      Index
+                    </h1>
+                    <span
+                      class="w-[4px] h-[30px] bg-[#FC714D] rounded-[1px]"
+                    ></span>
+                  </div>
+                </div>
+                <div
+                  class="md:w-[230px] w-[82%] h-[50px] flex px-[12px] items-center justify-between rounded-[6px] bg-[#F3F3F3]"
+                >
+                  <div
+                    data-aos="zoom-out"
+                    data-aos-duration="1000"
+                    class="text-[30px] text-[#615DE3]"
+                  >
+                    +26.6%
+                  </div>
+                  <div
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    class="text-[12px] gap-[8px] flex items-center text-[#191618]"
+                  >
+                    <h1 class="leading-[14.4px]">
+                      Google <br />
+                      Index
+                    </h1>
+                    <span
+                      class="w-[4px] h-[30px] bg-[#615DE3] rounded-[1px]"
+                    ></span>
+                  </div>
+                </div>
+                <div
+                  class="md:w-[230px] w-[82%] h-[50px] flex px-[12px] items-center justify-between rounded-[6px] bg-[#F3F3F3]"
+                >
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    class="text-[30px] text-[##7CA63A]"
+                  >
+                    +34.1%
+                  </div>
+                  <div
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
+                    class="text-[12px] gap-[8px] flex items-center text-[#191618]"
+                  >
+                    <h1>Microsoft</h1>
+                    <span
+                      class="w-[4px] h-[30px] bg-[#AFCD80] rounded-[1px]"
+                    ></span>
+                  </div>
+                </div>
+                <div
+                  class="md:w-[230px] w-[82%] h-[50px] flex px-[12px] items-center justify-between rounded-[6px] bg-[#F3F3F3]"
+                >
+                  <div
+                    data-aos="zoom-out"
+                    data-aos-duration="1000"
+                    class="text-[30px] text-[#6F34A1]"
+                  >
+                    +17%
+                  </div>
+                  <div
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    class="text-[12px] gap-[8px] items-center flex text-[#191618]"
+                  >
+                    <h1 class="leading-[14.4px]">
+                      Twitter <br />
+                      Index
+                    </h1>
+                    <span
+                      class="w-[4px] h-[30px] bg-[#6F34A1] rounded-[1px]"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="mt-[4px] gap-2 md:gap-0 md:w-[93%] flex md:flex-row flex-col justify-start items-center md:items-start md:justify-between"
+              >
+                <div class="flex gap-[14px]">
+                  <div class="relative w-[178px]">
+                    <select
+                      aria-placeholder="Selectors"
+                      class="w-full bg-[#2042B6] px-[10px] text-[12px] text-white h-[36px] md:h-[26px] shadow-lg rounded-[124px] outline-none appearance-none pr-[30px]"
+                      name="Selectors"
+                    >
+                      <option value="Selectors">Selectors</option>
+                    </select>
+                    <div
+                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-white"
+                    >
+                      <svg
+                        class="fill-current h-4 w-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="relative w-[178px]">
+                    <select
+                      aria-placeholder="Types of IPO"
+                      class="w-full bg-[#2042B6] px-[10px] text-[12px] text-white h-[36px] md:h-[26px] shadow-lg rounded-[124px] outline-none appearance-none pr-[30px]"
+                      name="Selectors"
+                    >
+                      <option value="Selectors">Types of IPO</option>
+                    </select>
+                    <div
+                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-white"
+                    >
+                      <svg
+                        class="fill-current h-4 w-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="w-[232px] h-[30px] flex justify-end items-center rounded-[124px] bg-[#EFF3F6]"
+                >
+                  <span
+                    class="text-[#748DA1] text-[12px] hover:text-white flex justify-center items-center w-[36px] h-[24px] transition-all duration-300 ease-in-out transform cursor-pointer rounded-[124px] hover:bg-[#2042B6]"
+                    >1Y</span
+                  ><span
+                    class="text-[#748DA1] text-[12px] hover:text-white flex justify-center items-center w-[36px] h-[24px] transition-all duration-300 ease-in-out transform cursor-pointer rounded-[124px] hover:bg-[#2042B6]"
+                    >YDT</span
+                  ><span
+                    class="text-[#748DA1] text-[12px] hover:text-white flex justify-center items-center w-[36px] h-[24px] transition-all duration-300 ease-in-out transform cursor-pointer rounded-[124px] hover:bg-[#2042B6]"
+                    >6M</span
+                  ><span
+                    class="text-[#748DA1] text-[12px] hover:text-white flex justify-center items-center w-[36px] h-[24px] transition-all duration-300 ease-in-out transform cursor-pointer rounded-[124px] hover:bg-[#2042B6]"
+                    >1M</span
+                  ><span
+                    class="text-[#748DA1] text-[12px] hover:text-white flex justify-center items-center w-[36px] h-[24px] transition-all duration-300 ease-in-out transform cursor-pointer rounded-[124px] hover:bg-[#2042B6]"
+                    >1W</span
+                  >
+                </div>
+              </div>
+              <canvas
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                class="overflow-hidden"
+                id="myChart"
+              ></canvas>
+            </div>
+          </div>
+          <!-- ////////////////////////// -->
+        </div>
+      </div>
+      <!-- ///////////////////////// -->
+      <!-- ///////////////////////// -->
+      <!-- PAGE 3RD STARTS HERE  -->
+      <div
+        class="bg-[#EDEDED] px-[25px] sm:w-auto w-[106vw] overflow-hidden pt-[60px]"
+      >
+        <div class="pt-[53px] bg-white pb-[20px] rounded-[20px]">
+          <div
+            class="flex flex-col lg:flex-row justify-between px-[45px] space-y-4 lg:space-y-0"
+          >
+            <h1
+              class="text-[#191618] text-[24px] text-center sm:text-left sm:text-[48px]"
+            >
+              All Companies
+            </h1>
+            <form class="relative w-full lg:w-auto">
+              <img
+                class="absolute left-[19px] top-[19px]"
+                src="./assets/search.svg"
+                alt=""
+              />
+              <input
+                onclick="inputFunc(event)"
+                oninput="inputFunc(event)"
+                id="input"
+                class="w-full lg:w-[558px] h-[58px] pl-[52px] text-[#191618] text-[24px] rounded-[8px] border outline-none bg-[#DADADA]"
+                placeholder="Search Companies (TRY IT WORKS) "
+                type="text"
+              />
+            </form>
+          </div>
+          <div
+            class="max-h-[400px] mt-[50px] px-[36px] overflow-auto scrollbar-thin scrollbar-thumb-blue-500 scrollbar-track-gray-200 overflow-y-auto"
+            style="
+              overflow: auto;
+              margin-right: 30px;
+              scrollbar-width: thin;
+              border-radius: 3px;
+              scrollbar-color: #2042b6 #e5e7eb;
+            "
+          >
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="bg-[#FFFFFF] text-black sticky top-0">
+                  <th class="text-left py-2 px-3 font-normal">Company</th>
+                  <th class="text-left py-2 px-3 font-normal">Ticker</th>
+                  <th class="text-left py-2 px-3 font-normal">Vertical</th>
+                  <th class="text-right py-2 px-3 font-normal">Price</th>
+                  <th class="text-right py-2 px-3 font-normal">
+                    Market Cap ($B)
+                  </th>
+                  <th class="text-right py-2 px-3 font-normal">
+                    Revenue Growth
+                  </th>
+                  <th class="text-right py-2 px-3 font-normal">Gross Margin</th>
+                  <th class="text-right py-2 px-3 font-normal">EV/Revenue</th>
+                  <th class="text-right py-2 px-3 font-normal">
+                    YTD Performance
+                  </th>
+                </tr>
+              </thead>
+              <tbody id="tableBody" class="divide-y divide-gray-200">
+                <!--DYNAMIC Rows -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div
+          class="w-full lg:w-[482px] mx-auto sm:h-[147px] flex flex-col lg:flex-row gap-[12px] mt-[20px] sm:mt-[40px]"
+        >
+          <button
+            class="flex justify-center sm:shadow-[0px_24px_36px_0px_#00000040] hover:bg-[#3a5ddf] transition-all duration-300 ease-in-out transform items-center bg-[#2042B6] w-full lg:w-[269px] h-[47px] rounded-[124px] text-[#FFFFFF]"
+          >
+            Download ‘All Companies’ Data
+          </button>
+          <button
+            class="flex justify-center sm:shadow-[0px_24px_36px_0px_#00000040] hover:bg-[#3a5ddf] transition-all duration-300 ease-in-out transform items-center bg-[#2042B6] w-full lg:w-[201px] h-[47px] rounded-[124px] text-[#FFFFFF]"
+          >
+            View Methodology
+          </button>
+        </div>
+      </div>
+      <!-- //////////// 
+ 
+ 
+       PAGE 4TH STARTS HERE   
+       
+      ////////////// -->
+      <div
+        class="pt-[60px] bg-[#EDEDED] sm:w-auto w-[106vw] overflow-hidden px-[25px]"
+      >
+        <div
+          class="text-[#191618] pl-[0px] text-center sm:text-left px-[23px] md:px-0 md:pl-[70px] flex flex-col gap-[18px]"
+        >
+          <h1 class="sm:text-[48px] text-[28px]">Potential Future Listings</h1>
+          <p>
+            Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate libero et velit interdum, ac aliquet odio mattis. <br />
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            per inceptos himenaeos.
+          </p>
+        </div>
+        <div
+          id="card"
+          class="pt-[26px] flex justify-center md:justify-start overflow-x-auto lg:overflow-hidden lg:flex-wrap gap-[20px] pl-[0px] px-[23px] md:px-0 md:pl-[70px]"
+        >
+          <!-- CARDS dynamic -->
+        </div>
+      </div>
+      <!-- //////////// 
+ 
+ 
+       PAGE 5TH STARTS HERE   
+       
+      ////////////// -->
+      <div
+        class="pt-[60px] bg-[#EDEDED] sm:w-auto w-[106vw] overflow-hidden px-[25px]"
+      >
+        <div
+          class="pt-[95px] pl-[0px] text-center sm:text-left px-[23px] md:px-0 md:pl-[70px] flex gap-[20px] flex-col"
+        >
+          <h1 class="text-[48px] text-[#191618]">State of USA</h1>
+          <div class="relative mx-auto sm:mx-0 w-[178px]">
+            <select
+              aria-placeholder="2024"
+              class="w-[200px] text-[29px] sm:text-[48px] outline-none pl-[24px] appearance-none text-white rounded-[124px] bg-[#2042B6]"
+              name="2024"
+            >
+              <option class="" value="Selectors">2024</option>
+            </select>
+            <div
+              class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-white"
+            >
+              <svg
+                class="fill-current h-4 w-4"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                />
+              </svg>
+            </div>
+          </div>
+          <p class="text-[#191618]">
+            Click through the slides or download the report to view natively on
+            your device.
+          </p>
+        </div>
+        <div
+          class="swiper-container relative pt-[20px] pl-[0px] flex gap-[20px] px-[23px] md:px-0 md:pl-[59px]"
+        >
+          <div class="swiper-wrapper flex gap-[20px]">
+            <div class="swiper-slide">
+              <img
+                class="w-[580px] h-[326px]"
+                src="./assets/firstSlider.svg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="w-[580px] h-[326px]"
+                src="./assets/2ndslider.svg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="md:w-[580px] w-[480px] mt-[3.7rem] md:mt-[0px] h-[203px] md:h-[326px]"
+                src="./assets/3rdSliderimg.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="absolute bottom-[-10px] md:bottom-[-130px] z-[-0.1] right-[66px]"
+          >
+            <img
+              class="md:h-[595.35px] w-[616px]"
+              src="./assets/Group 364.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="pt-[20px] pl-[0px] justify-center text-center lg:text-start t lg:justify-start flex gap-[20px] px-[23px] md:px-0 md:pl-[70px]"
+        >
+          <div
+            class="flex gap-[28px] lg:gap-0 flex-wrap lg:pt-0 pt-[5.4rem] w-full lg:pr-[163px] pb-[59px] justify-center lg:justify-between"
+          >
+            <div>
+              <div
+                class="flex items-center flex-row lg:items-start gap-[10px] lg:gap-[30px]"
+              >
+                <div class="flex gap-[12px] lg:gap-[20px]">
+                  <button
+                    id="prev"
+                    class="w-[56px] shadow-[0px_36px_36px_0px_#0000001F] h-[56px] rounded-full flex justify-center items-center bg-[#ffffff]"
+                  >
+                    <img
+                      class="hover:scale-110 transition-all duration-300 ease-in-out transform"
+                      src="./assets/arrow_downward_alt.svg"
+                      alt=""
+                    />
+                  </button>
+
+                  <button
+                    id="next"
+                    class="w-[56px] shadow-[0px_36px_36px_0px_#0000001F] h-[56px] rounded-full flex justify-center items-center bg-[#ffffff]"
+                  >
+                    <img
+                      class="hover:scale-110 transition-all duration-300 ease-in-out transform"
+                      src="./assets/arrow_downward_alt (1).svg"
+                      alt=""
+                    />
+                  </button>
+                </div>
+                <div class="flex gap-[5px] lg:gap-[10px] items-center">
+                  <h1>Pages</h1>
+                  <div class="relative">
+                    <select
+                      aria-placeholder="1 and 2"
+                      class="w-[131px] bg-[#FFFFFF] px-[10px] text-[16px] text-black pl-[20px] h-[56px] shadow-[0px_24px_36px_0px_#00000040] rounded-[124px] outline-none appearance-none pr-[30px]"
+                      name="Selectors"
+                    >
+                      <option value="1 and 2">1 and 2</option>
+                    </select>
+                    <div
+                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-6 text-[#2042B6]"
+                    >
+                      <svg
+                        class="fill-current h-4 w-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p>of 37</p>
+                </div>
+              </div>
+            </div>
+            <div class="relative z-30">
+              <button
+                class="rounded-[124px] hover:bg-[#3a5ddf] transition-all duration-300 ease-in-out transform shadow-[0px_24px_36px_0px_#00000040] text-[16px] font-garamond w-[240px] h-[56px] text-white bg-[#2042B6]"
+              >
+                Download the 2024 Report
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //////////// 
+ 
+ 
+       PAGE 6TH STARTS HERE   
+       
+      ////////////// -->
+      <div
+        class="pt-[60px] bg-[#EDEDED] sm:w-auto w-[106vw] overflow-hidden px-[25px]"
+      >
+        <div
+          class="md:pt-[133px] pb-[64px] pl-[0px] text-center sm:text-left px-[23px] md:px-0 md:pl-[70px] flex gap-[18px] flex-col"
+        >
+          <h1 class="text-[48px] text-[#191618]">Stories & Ideas</h1>
+
+          <p class="text-[#191618] text-[20px]">The latest news and updates</p>
+        </div>
+        <div
+          id="testomonials"
+          class="lg:w-[1180px] pb-[100px] border-b border-b-[#90B8F0] flex gap-[20px] overflow-x-auto lg:overflow-hidden justify-center lg:justify-start lg:flex-wrap mx-auto"
+        >
+          <!-- //// testomonials ARE DYNAMICALLYY  RENDERED HERE -->
+        </div>
+      </div>
+      <!-- //////////// 
+ 
+ 
+       PAGE 7TH STARTS HERE   
+       
+      ////////////// -->
+      <div class="bg-[#EDEDED] sm:w-auto w-[106vw] overflow-hidden px-[25px]">
+        <div
+          class="pb-[100px] border-b-[#90B8F0] lg:w-[1180px] mx-auto border-b"
+        >
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            class="lg:w-[1180px] lg:gap-0 gap-[30 px] text-center lg:text-left py-[40px] lg:py-0 px-[20px] lg:px-0 lg:flex-row flex-col bg-[#FFFFFF] flex justify-center items-center mx-auto mt-[80px] lg:h-[420px]"
+          >
+            <div class="lg:w-[628px] lg:mb-[72px] lg:ml-[72px] lg:h-[264px]">
+              <h1
+                class="lg:text-[48px] text-[26px] lg:mb-[20px] text-[#191618]"
+              >
+                About WPPOOL
+              </h1>
+              <p class="text-[#7D7F81] mb-[16px] text-[18px] lg:text-[30px]">
+                Investing in wppool for over 50 years
+              </p>
+              <p class="text-[#191618] lg:leading-[24px]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia,molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborumnumquam blanditiis harum quisquam
+                eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum!
+                Provident similique accusantium nemo autem.
+              </p>
+              <div class="lg:mt-[30px] mb-[20px] mt-[25px]">
+                <button
+                  class="bg-[#2042B6] hover:bg-[#3a5ddf] transition-all duration-300 ease-in-out transform shadow-[0px_24px_36px_0px_#00000040] w-[167px] h-[47px] rounded-[124px] text-[#FFFFFF]"
+                >
+                  Contact WPPOOL
+                </button>
+              </div>
+            </div>
+            <div class="">
+              <img src="./assets/Mask group.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /////////////////////////
+       
+      PAGE 8TH STARTS HEREEEEEEEEEEEEEEEE
+      
+      //////////////////////////////// -->
+      <div
+        class="bg-[#EDEDED] pb-[58px] sm:w-auto w-[106vw] overflow-hidden px-[25px]"
+      >
+        <div
+          class="mt-[100px] mb-[48px] md:pt-[95px] pl-[0px] text-center sm:text-left px-[23px] md:px-0 md:pl-[70px] flex gap-[20px] flex-col"
+        >
+          <h1 class="md:text-[48px] text-[28px] text-[#191618]">
+            Selected WPPOOL Portfolio Companies
+          </h1>
+        </div>
+        <div
+          id="companiesLogo"
+          class="lg:w-[1180px] flex gap-[20px] overflow-x-auto lg:overflow-hidden lg:flex-wrap justify-center lg:justify-start lg:h-[540px] mx-auto"
+        >
+          <!-- /// CARDS ARE RENDERED HERE DYNAMICALLYY -->
+        </div>
+      </div>
+      <!-- /////////////////////////
+       
+      FOOTERRRR HEREEEEEEEEEEE
+
+      /////////////////////////////// -->
+      <div class="bg-[#EDEDED] sm:w-auto w-[106vw] overflow-hidden">
+        <div class="lg:w-[1273px] lg:h-[760px] rounded-tr-[12px] bg-[#E6E6E6]">
+          <div class="h-full mx-[23px] flex lg:flex-row flex-col w-full">
+            <div
+              class="pt-[77px] pb-[73px] h-full flex flex-col justify-between lg:pl-[93px]"
+            >
+              <div
+                class="md:w-[454px] pr-[35px] lg:pr-0 leading-[48.96px] h-[196px] text-[26px] md:text-[36px] text-[#000000]"
+              >
+                Experience remarkable WordPress products with a new level of
+                power, beauty, and human-centered designs.
+              </div>
+              <div class="flex lg:w-[517px] flex-col gap-[21px]">
+                <p class="text-[#9FA0A1] text-[14px]">
+                  ©2024 Terms of Use Privacy Policy
+                </p>
+                <p class="text-[14px] pr-[35px] lg:pr-0 text-[#000000]">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime mollitia,molestiae quas vel sint commodi repudiandae
+                  consequuntur voluptatum laborum numquam blanditiis harum
+                  quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                  eaque rerum! Provident similique accusantium nemo autem.
+                  Veritatis obcaecati tenetur iure eius earum ut molestias
+                  architecto voluptate aliquam nihil, eveniet aliquid culpa
+                  officia aut! Impedit sit sunt quaera
+                </p>
+              </div>
+            </div>
+            <div class="w-full pt-[77px] lg:pl-[60px]">
+              <p class="text-[#9FA0A1] text-[20px] pb-[16px]">Jump To</p>
+              <ul class="text-[#2042B6] text-[20px] flex flex-col gap-[10px]">
+                <li class="cursor-pointer">About Us</li>
+                <li class="cursor-pointer">Portfolio</li>
+                <li class="cursor-pointer">News</li>
+                <li class="cursor-pointer">Stories</li>
+                <li class="cursor-pointer">Jobs</li>
+                <li class="cursor-pointer">About Us</li>
+              </ul>
+            </div>
+            <div class="flex flex-col pb-[20px] lg:pb-0 gap-[24px]">
+              <div
+                class="w-[258px] lg:ml-[122px] pb-[30px] pt-[77px] mr-[122px] flex flex-col gap-[8px] border-b-[#9FA0A1] border-b"
+              >
+                <h1 class="text-[#191618] text-[20px] font-bold">Cambridge</h1>
+                <p class="w-[213px] h-[84px] text-[#191618] text-[20px]">
+                  70728 Yost Burg,<br />
+                  North Magdaleneview, UT 97952-2814
+                </p>
+              </div>
+              <div
+                class="w-[258px] lg:ml-[122px] pb-[30px] mr-[122px] flex flex-col gap-[8px] border-b-[#9FA0A1] border-b"
+              >
+                <h1 class="text-[#191618] text-[20px] font-bold">London</h1>
+                <p class="w-[245px] h-[84px] text-[#191618] text-[20px]">
+                  Suite 292 903 Stehr Streets, Langworthtown, <br />
+                  SC 94577-9465
+                </p>
+              </div>
+              <div
+                class="w-[258px] lg:ml-[122px] pb-[30px] mr-[122px] flex flex-col gap-[8px] border-b-[#9FA0A1] border-b"
+              >
+                <h1 class="text-[#191618] text-[20px] font-bold">
+                  San Francisco
+                </h1>
+                <p class="w-[233px] h-[84px] text-[#191618] text-[20px]">
+                  19837 Gilberto Lodge, Lake Kendallville, <br />
+                  Colorado - 97392, Bhutan
+                </p>
+              </div>
+              <div class="pt-[24px] lg:ml-[122px] gap-[21px] flex">
+                <img
+                  class="cursor-pointer"
+                  src="./assets/linkedin.svg"
+                  alt=""
+                />
+                <img class="cursor-pointer" src="./assets/twitter.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
